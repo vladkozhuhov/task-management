@@ -30,7 +30,7 @@ public class MappingProfile : Profile
     }
 }
 
-public abstract class TaskRelationsResolver : IValueResolver<TaskItem, TaskItemDto, ICollection<TaskRelationDto>>
+public class TaskRelationsResolver : IValueResolver<TaskItem, TaskItemDto, ICollection<TaskRelationDto>>
 {
     public ICollection<TaskRelationDto> Resolve(TaskItem source, TaskItemDto destination, ICollection<TaskRelationDto> destMember, ResolutionContext context)
     {

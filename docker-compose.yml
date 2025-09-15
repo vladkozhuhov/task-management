@@ -1,44 +1,37 @@
-version: '3.8'
+﻿version: '3.8'
 
 services:
   webapi:
-    image: taskmanagement
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: WebApi/Dockerfile
     ports:
-      - "5000:80"
-      - "5001:443"
+      - "5050:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=taskmanagement;Username=postgres;Password=postgres
     depends_on:
       - postgres
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=TaskManagement;Username=postgres;Password=postgres
     networks:
       - taskmanagement-network
 
   postgres:
-    image: postgres:15
-    container_name: taskmanagement-postgres
+    image: postgres:latest
+    ports:
+      - "5432:5432"
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=TaskManagement
-    ports:
-      - "5432:5432"
+      - POSTGRES_DB=taskmanagement
     volumes:
       - postgres-data:/var/lib/postgresql/data
     networks:
       - taskmanagement-network
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-volumes:
-  postgres-data:
 
 networks:
   taskmanagement-network:
     driver: bridge
+
+volumes:
+  postgres-data:

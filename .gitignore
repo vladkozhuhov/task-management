@@ -1,0 +1,127 @@
+# .NET Core
+*.swp
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.jfm
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 
+.vs/
+.vscode/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+*.iml
+*.ipr
+*.iws
+rider.project.model.nuget.info
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+rider.project.restore.info
+
+# NuGet
+*.nupkg
+*.nuget.cache
+*.nuget.dgspec.json
+*.dgspec.json
+project.nuget.cache
+
+# Assembly info
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.GlobalUsings.g.cs
+*.AssemblyReference.cache
+*.AssemblyAttributes.cs
+*.FileListAbsolute.txt
+*.csproj.CopyComplete
+*.csproj.CoreCompileInputs.cache
+*.csproj.FileListAbsolute.txt
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# EntityFramework Core
+*.db-shm
+*.db-wal
+Migrations/
+
+# Logging
+logs/
+Logs/
+*.log
+
+# JWT
+*.rsa
+*.pfx
+*.publishsettings
+
+# Tests
+TestResults/
+coverage.json
+coverage.xml

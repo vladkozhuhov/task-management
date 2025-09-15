@@ -1,0 +1,11 @@
+/Users/pogovorimopogode/Project/TaskManagement/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/pogovorimopogode/Project/TaskManagement/Domain/bin/Debug/net8.0/Domain.dll
+/Users/pogovorimopogode/Project/TaskManagement/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.dll
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/pogovorimopogode/Project/TaskManagement/Domain/obj/Debug/net8.0/ref/Domain.dll

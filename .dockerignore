@@ -1,0 +1,24 @@
+# Директории
+**/bin/
+**/obj/
+**/out/
+**/.git/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/node_modules/
+
+# Файлы
+**/*.user
+**/*.userprefs
+**/*.lock.json
+**/*.dbmdl
+**/*.jfm
+**/npm-debug.log
+**/yarn-debug.log
+**/yarn-error.log
+
+# Docker файлы
+.dockerignore
+Dockerfile
+docker-compose*
